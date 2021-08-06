@@ -1,0 +1,43 @@
+:root{
+    --main-color:#fff848;
+    --sub-color:#653fe8;
+    --primary-lead-font:100px;
+    --primary-font-family:'M PLUS 1p', sans-serif;
+    --secondry-font-family:'Oswald', sans-serif;
+    --secondry-lead-font:80px;
+    --pc-contents-width:1160px;
+    --responsive-max-width:767px;
+    --default-font-size:16px;
+}
+
+* {
+    min-height:0;
+    min-width : 0;
+    }
+
+main {
+    flex: 1;
+}
+
+li{
+    list-style: none;
+}
+
+h1,h2,h3,h4,a,span{
+    transform: rotate(0.03deg); 
+}
+p{
+    transform: rotate(0.03deg);
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    transform: rotate(0.03deg);
+    display: inline-block;
+}
+
+span{
+    display: inline-block;
+}
+
